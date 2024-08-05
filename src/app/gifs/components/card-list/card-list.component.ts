@@ -1,13 +1,12 @@
-import {Component, Input} from '@angular/core';
-import {Gif} from "../../interfaces/gifs.interfaces";
+import { Component, Input } from '@angular/core';
+import { Gif } from '../../interfaces/gifs.interfaces';
 
 @Component({
   selector: 'gifs-card-list',
   templateUrl: './card-list.component.html',
-  styleUrls: ['./card-list.component.css']
+  styleUrls: ['./card-list.component.css'],
 })
 export class CardListComponent {
-
-  @Input({required:true})
-  gifs: Array<Gif>=[]
+  @Input({ required: true })
+  gifs: Array<Gif> = [];
 }

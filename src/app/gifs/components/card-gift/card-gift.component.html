@@ -1,0 +1,11 @@
+<div class="card mb-2 text-center bg-dark">
+  <shared-lazy-image
+    [url]="gift.images.downsized_medium.url"
+    [alt]="gift.title || 'No name'"
+  ></shared-lazy-image>
+  <div class="card-body text-white">
+    <p class="card-text">
+      {{ gift.title }}
+    </p>
+  </div>
+</div>
